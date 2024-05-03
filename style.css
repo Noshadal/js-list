@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 199, 199);
+}
+.box{
+    background-color: rgb(170, 175, 173);
+    display: flex;
+     justify-content: center; 
+    align-items: center; 
+    gap: 5px;
+    color: rgb(41, 62, 80);
+    font-size: 2dvi;
+    transition: .5s;
+}
+#inpo{
+    text-align: center;
+    padding: 1%;
+    font-size: 32px;
+
+   
+}
+
+img {
+    width: 5%; /* desired width */
+    height: 5%; /* desired height */
+    border-radius: 50%;
+    margin: 10px;
+}
+button{
+    height: 3vh;
+    width: 4vw;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30%;
+   font-size: 22px;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   transition: .5s;
+}
+.box:hover{
+    transform: scale(1.5);
+    font-size: 26px;
+    filter: opacity(5);
+}
+button:hover{
+    font-size:28px ;
+}
